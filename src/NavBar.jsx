@@ -9,7 +9,7 @@ const NavBar = () => {
         <Navbar.Brand as={HashLink} to="#home">
           <img src="imgs/3.1.png" alt="" width={50} />
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" id='tog'/>
         <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-center">
           <Nav>
             <Nav.Link as={HashLink} to="#home">
