@@ -4,7 +4,9 @@
   box-sizing: border-box;
   /* overflow: hidden; */
 }
-
+#tog span{
+  background-image: url(/public/imgs/images1.png);
+}
 .preloaderr{
   display: flex;
   justify-content: center;
